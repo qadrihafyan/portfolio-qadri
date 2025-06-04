@@ -41,15 +41,15 @@
 
     <!-- Social Icons -->
     <div class="flex justify-center gap-8 text-2xl mb-10">
-      <a href="https://wa.me/6281234567890" target="_blank"
+      <a href="https://wa.me/6281292623426" target="_blank"
         class="hover:text-[#25D366] transition transform hover:scale-110">
         <i class="fab fa-whatsapp"></i>
       </a>
-      <a href="https://github.com/yourusername" target="_blank"
+      <a href="https://github.com/qadrihafyan" target="_blank"
         class="hover:text-gray-300 transition transform hover:scale-110">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://instagram.com/yourusername" target="_blank"
+      <a href="https://instagram.com/qadrihafyann" target="_blank"
         class="hover:text-pink-500 transition transform hover:scale-110">
         <i class="fab fa-instagram"></i>
       </a>
