@@ -50,12 +50,10 @@ const projects = [
 
 <template>
     <section id="Project" class="relative py-25 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto min-h-screen">
-        <!-- Background gradient kiri -->
         <div class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full 
       bg-gradient-to-r from-primary via-[#5C8374] to-secondary 
       opacity-20 dark:opacity-10 blur-[120px] left-10 top-0"></div>
 
-        <!-- Background gradient kanan -->
         <div class="absolute w-1/2 aspect-[16/5] skew-x-12 rounded-full 
       bg-gradient-to-l from-primary via-[#5C8374] to-secondary 
       opacity-20 dark:opacity-10 blur-[120px] right-10 bottom-0"></div>

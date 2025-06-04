@@ -46,7 +46,6 @@ const services = [
 
 <template>
     <section id="Service" class="relative py-25 px-4 max-w-6xl mx-auto min-h-screen">
-        <!-- Background gradient -->
         <div class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full 
       bg-gradient-to-r from-primary via-secondary to-primary 
       opacity-20 blur-[100px] left-10 top-0 block">
@@ -57,7 +56,8 @@ const services = [
         </div>
 
         <div class="relative">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-10" data-aos="fade-down"> Services</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-10" data-aos="fade-down"> Services
+            </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <ServiceCard v-for="(service, i) in services" :key="i" :icon="service.icon" :title="service.title"
                     :description="service.description" />

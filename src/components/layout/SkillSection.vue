@@ -9,7 +9,7 @@ import python from '../../assets/icon/python.svg'
 import java from '../../assets/icon/java.svg'
 import git from '../../assets/icon/git.svg'
 import tailwind from '../../assets/icon/tailwind.svg'
-// import from '../../asset/icon/c.svg'
+import c from '../../assets/icon/c.svg'
 const skills = [
     { icon: html, label: 'HTML' },
     { icon: css, label: 'CSS' },
@@ -20,18 +20,16 @@ const skills = [
     { icon: java, label: 'Java' },
     { icon: git, label: 'Git' },
     { icon: tailwind, label: 'Tailwind' },
-    { icon: "", label: 'C++' },
+    { icon: c, label: 'C++' },
 ]
 </script>
 
 <template>
     <section id="Skill" class="relative py-25 px-4 max-w-6xl mx-auto min-h-screen">
-        <!-- Background Gradient kiri -->
         <div class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full 
       bg-gradient-to-r from-[#183D3D] via-[#5C8374] to-secondary 
       opacity-30 blur-[100px] left-10 top-0 block"></div>
 
-        <!-- Background Gradient kanan -->
         <div class="absolute w-1/2 aspect-[16/5] skew-x-12 rounded-full 
       bg-gradient-to-l from-[#183D3D] via-[#5C8374] to-secondary 
       opacity-30 blur-[100px] right-10 bottom-0 block"></div>
