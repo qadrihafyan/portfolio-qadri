@@ -8,43 +8,44 @@ import project5 from '../../assets/project5.png'
 import project6 from '../../assets/project6.png'
 
 const projects = [
-    {
-        icon: project1,
-        title: 'HTML & CSS',
-        link: 'https://github.com/qadrihafyan/management-keuangan',
-        description: 'Semantic, responsive, and modern layout.',
-    },
-    {
-        icon: project2,
-        title: 'Vue.js',
-        link: 'https://github.com/qadrihafyan/to-doList',
-        description: 'SPA and modular components using Vue.',
-    },
-    {
-        icon: project3,
-        title: 'Tailwind CSS',
-        link: 'https://github.com/qadrihafyan/32-pbk-uts-233510651',
-        description: 'Utility-first CSS for fast and consistent design.',
-    },
-    {
-        icon: project4,
-        title: 'JavaScript',
-        link: 'https://github.com/qadrihafyan/js-ecommers',
-        description: 'Interactivity and logic of web applications.',
-    },
-    {
-        icon: project5,
-        title: 'IoT Programming',
-        link: 'https://www.tinkercad.com/things/gKdn9tf6RjP-pintu-otomatis?sharecode=HdgDK2MSkCvBSEgn_r2oagrsiKvOpXerl9kzIJdpxzA',
-        description: 'Smart device development with ESP & Arduino.',
-    },
-    {
-        icon: project6,
-        title: 'Python',
-        link:"https://github.com/qadrihafyan/algorithm-lr",
-        description: 'Scripting and automation from simple to complex.',
-    },
+  {
+    icon: project1,
+    title: 'HTML & CSS',
+    link: 'https://github.com/qadrihafyan/management-keuangan',
+    description: 'Semantic, responsive, and modern layout using clean HTML structure and well-organized CSS styling techniques. Ensures accessibility and cross-device compatibility.',
+  },
+  {
+    icon: project2,
+    title: 'Vue.js',
+    link: 'https://github.com/qadrihafyan/to-doList',
+    description: 'SPA and modular components using Vue. Features reactive data binding, component reusability, and clean structure for maintainable web apps.',
+  },
+  {
+    icon: project3,
+    title: 'Tailwind CSS',
+    link: 'https://github.com/qadrihafyan/32-pbk-uts-233510651',
+    description: 'Utility-first CSS for fast and consistent design. Enables rapid UI building with low-level utility classes while maintaining design consistency.',
+  },
+  {
+    icon: project4,
+    title: 'JavaScript',
+    link: 'https://github.com/qadrihafyan/js-ecommers',
+    description: 'Interactivity and logic of web applications. Handles DOM manipulation, form validation, and dynamic content rendering for better user experiences.',
+  },
+  {
+    icon: project5,
+    title: 'IoT Programming',
+    link: 'https://www.tinkercad.com/things/gKdn9tf6RjP-pintu-otomatis?sharecode=HdgDK2MSkCvBSEgn_r2oagrsiKvOpXerl9kzIJdpxzA',
+    description: 'Smart device development with ESP & Arduino. Includes sensor integration, basic automation logic, and real-time response using microcontroller programming.',
+  },
+  {
+    icon: project6,
+    title: 'Python',
+    link: 'https://github.com/qadrihafyan/algorithm-lr',
+    description: 'Scripting and automation from simple to complex. Covers data processing, algorithm design, and small utility scripts for real-world tasks.',
+  },
 ]
+
 </script>
 
 <template>

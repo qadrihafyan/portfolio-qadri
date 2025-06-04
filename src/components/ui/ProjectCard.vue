@@ -11,22 +11,30 @@ defineProps({
 </script>
 
 <template>
-    <div
-        class="bg-white/20 backdrop-blur p-4 rounded-lg shadow hover:shadow-lg transition text-center flex flex-col justify-between h-full">
-        <div>
-            <img :src="icon" alt="" class="w-auto h-64 mx-auto mb-3 border-10 rounded-3xl border-primary" />
-            <h3 class="text-lg font-semibold text-secondary">{{ title }}</h3>
-            <p class="text-sm text-white">{{ description }}</p>
-        </div>
-
-        <!-- Tombol View Code -->
-        <div v-if="codeLink" class="mt-4">
-            <a :href="codeLink" target="_blank" rel="noopener noreferrer"
-                class="inline-block mt-auto text-sm px-4 py-2 border bg-secondary text-primary font-semibold rounded-md hover:bg-secondary hover:text-white transition">
-                View Code
-            </a>
-        </div>
+  <div
+    class="bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 text-center flex flex-col justify-between h-full border border-white/10 hover:border-secondary/50"
+  >
+    <div>
+      <img
+        :src="icon"
+        alt="Project Icon"
+        class="w-auto h-52 mx-auto mb-5 rounded-2xl border-4 border-primary shadow-sm object-cover"
+      />
+      <h3 class="text-xl font-semibold text-secondary mb-2 tracking-wide">{{ title }}</h3>
+      <p class="text-sm text-white/80 leading-relaxed text-justify">{{ description }}</p>
     </div>
+
+    <div v-if="codeLink" class="mt-6">
+      <a
+        :href="codeLink"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block text-sm px-5 py-2 rounded-full font-medium transition-colors duration-300 bg-secondary text-primary hover:bg-secondary/90 hover:text-white"
+      >
+        View Code
+      </a>
+    </div>
+  </div>
 </template>
 
 
